@@ -1,1 +1,62 @@
+@keyframes burgerHeaderAnim {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
 
+@keyframes rgbText {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+#header {
+  background-color: transparent !important;
+  background-image: url("https://raw.githack.com/macfrombv/myspace93/main/cheeseburger.png") !important;
+  background-repeat: repeat !important;
+  background-size: 27px 27px !important;
+  animation: burgerHeaderAnim 10s linear infinite alternate !important;
+  height: 66px !important;
+}
+
+#hSub {
+top: 56px !important;
+}
+
+.logo {
+  animation:rgbText 20s infinite alternate !important;
+  text-align: center !important;
+}
